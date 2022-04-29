@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flex concept</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            padding: 3px;
+            background-color: black;
+            color: cornsilk;
+            justify-content: space-between;
+            position: fixed;
+
+
+        }
+
+        .menu {
+            width: 40%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        h1 {
+            margin-left: 120px;
+        }
+
+        a {
+            color: cornsilk;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 30px;
+        }
+
+        .bg {
+            background-image: url("https://images.pexels.com/photos/776636/pexels-photo-776636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            height: 800px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+
+        }
+        #wraper{
+            background-color: rgb(0, 0, 0, 0.5);
+            height: 800px;
+           display: flex;
+           color: aliceblue;
+           justify-items:center;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+
+          
+        }
+        h2{
+            color: white;
+            font-size: 40px;
+            font-weight: 30px;
+        }
+        p{
+            padding: 30px;
+        }
+        button{
+            background-color: red;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Geekster World</h1>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">port folio</a>
+            <a href="">Contact</a>
+            <a href="">page</a>
+        </div>
+    </div>
+    <div class="bg">
+        <div id="wraper">
+            <h2>About this Things</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam fugit, in, repellendus saepe odio ipsum
+                voluptate quis rem maiores laudantium eum aut aspernatur modi? Exercitationem quos magnam enim itaque id
+                consequuntur alias quod blanditiis, maiores, excepturi non animi eaque asperiores deserunt maxime
+                impedit qui laborum officia ut. Corporis, dolor illo.
+            </p>
+            <button>Learn more !!!</button>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
