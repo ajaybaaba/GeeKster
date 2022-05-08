@@ -1,2 +1,3 @@
 # GeeKster
-Assignment
+open please
+portfolio and style file
